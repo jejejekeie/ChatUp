@@ -1,0 +1,7 @@
+<!-- chat-list.component.html -->
+<ul class="chat-list">
+    <li *ngFor="let chat of chats" (click)="selectChat(chat)">
+      {{ chat.name }}
+    </li>
+  </ul>
+  

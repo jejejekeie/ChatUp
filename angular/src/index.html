@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chat Simple</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="emoji-picker.css">
+</head>
+<body>
+<div class="chat-container">
+  <div id="chat-messages" class="chat-messages"></div>
+  <div class="chat-input">
+    <input type="text" id="message-input" placeholder="Escribe tu mensaje...">
+    <button id="emoji-button">😀</button> <!-- Botón para abrir el selector de emojis -->
+    <button id="send-button">Enviar</button>
+  </div>
+</div>
+<script src="script.js"></script>
+<script src="emoji-picker.js"></script>
+<script src="main.js" type="module"></script> <!-- Archivo TypeScript compilado -->
+</body>
+</html>
