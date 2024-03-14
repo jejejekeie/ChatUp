@@ -1,0 +1,9 @@
+<div [@pageTransition]="routerOutlet.activatedRouteData.animation" class="page">
+  <router-outlet #routerOutlet="outlet"></router-outlet>
+</div>
+
+<!-- app.component.html -->
+<div class="app-container">
+  <app-chat-list></app-chat-list>
+  <router-outlet></router-outlet>
+</div>

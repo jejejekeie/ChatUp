@@ -1,0 +1,16 @@
+/* chat-list.component.css */
+.chat-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .chat-list li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .chat-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
