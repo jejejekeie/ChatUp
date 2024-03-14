@@ -11,6 +11,7 @@ import java.sql.Timestamp;
 @AllArgsConstructor
 @ToString
 @Entity
+@Table(name = "Mensajes")
 public class Mensaje {
 
     @Getter
@@ -21,7 +22,7 @@ public class Mensaje {
 
     @ManyToOne
     @JoinColumn(name = "chat_id")
-    private Chat chat;
+    private Chat chatId;
 
     @ManyToOne
     @JoinColumn(name = "remitente_id")

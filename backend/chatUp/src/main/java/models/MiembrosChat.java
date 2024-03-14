@@ -15,9 +15,11 @@ public class MiembrosChat {
     @ManyToOne
     @JoinColumn(name = "chat_id")
     private Chat chat;
+
     @Id
     @ManyToOne
     @JoinColumn(name = "usuario_id")
     private Usuario usuario;
+
     private Timestamp unidoEn;
 }

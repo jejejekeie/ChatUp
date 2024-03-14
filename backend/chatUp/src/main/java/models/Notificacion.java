@@ -10,13 +10,16 @@ import java.sql.Timestamp;
 @AllArgsConstructor
 @ToString
 @Entity
+@Table(name = "Notificaciones")
 public class Notificacion {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     @ManyToOne
     @JoinColumn(name = "usuario_id")
     private Usuario usuario;
+
     @Enumerated(EnumType.STRING)
     private TipoNotificacion tipo;
     private boolean leido;

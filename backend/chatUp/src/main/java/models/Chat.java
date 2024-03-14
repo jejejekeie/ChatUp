@@ -26,7 +26,7 @@ public class Chat {
     private Set<Mensaje> mensaje;
 
     @ManyToMany
-    @JoinTable(name = "miembros_chat",
+    @JoinTable(name = "miembrosChat",
             joinColumns = @JoinColumn(name = "chat_id"),
             inverseJoinColumns = @JoinColumn(name = "usuario_id"))
     private Set<Usuario> miembros;

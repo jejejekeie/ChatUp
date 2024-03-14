@@ -8,31 +8,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e8b165a-8865-4cf4-a42d-2cdcb51a410c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ChatUp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/blobs/version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/configuration/JpaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/configuration/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Mensaje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/MiembrosChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Notificacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/repositories/UsuariosRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chatUp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/controllers/UsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/repositories/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/services/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4a4523c0-ae87-4fdc-a66f-b88e0509d027.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4a4523c0-ae87-4fdc-a66f-b88e0509d027/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4a4523c0-ae87-4fdc-a66f-b88e0509d027/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4a4523c0-ae87-4fdc-a66f-b88e0509d027/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4a4523c0-ae87-4fdc-a66f-b88e0509d027/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/66fbc368-16c8-408c-a1c5-97a36ea22912.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/66fbc368-16c8-408c-a1c5-97a36ea22912/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/66fbc368-16c8-408c-a1c5-97a36ea22912/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/66fbc368-16c8-408c-a1c5-97a36ea22912/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/66fbc368-16c8-408c-a1c5-97a36ea22912/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7011c153-b0e0-47d6-9232-98c453f2bc67.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7011c153-b0e0-47d6-9232-98c453f2bc67/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7011c153-b0e0-47d6-9232-98c453f2bc67/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7011c153-b0e0-47d6-9232-98c453f2bc67/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7011c153-b0e0-47d6-9232-98c453f2bc67/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9923c6f-0ae2-45d2-9c31-ec1a16c1bce5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9923c6f-0ae2-45d2-9c31-ec1a16c1bce5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9923c6f-0ae2-45d2-9c31-ec1a16c1bce5/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9923c6f-0ae2-45d2-9c31-ec1a16c1bce5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9923c6f-0ae2-45d2-9c31-ec1a16c1bce5/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cdc9f1d8-54f0-44c0-a694-b01b758c4de9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cdc9f1d8-54f0-44c0-a694-b01b758c4de9/storage_v2/_src_/schema/ChatUp.MxQ8eA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cdc9f1d8-54f0-44c0-a694-b01b758c4de9/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cdc9f1d8-54f0-44c0-a694-b01b758c4de9/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cdc9f1d8-54f0-44c0-a694-b01b758c4de9/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cdc9f1d8-54f0-44c0-a694-b01b758c4de9/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d76b8dee-8f3d-408f-9ed7-4c9eba51ebe5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d76b8dee-8f3d-408f-9ed7-4c9eba51ebe5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d76b8dee-8f3d-408f-9ed7-4c9eba51ebe5/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d76b8dee-8f3d-408f-9ed7-4c9eba51ebe5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d76b8dee-8f3d-408f-9ed7-4c9eba51ebe5/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/da51b9c3-71f3-4922-a32d-2c6066b0c382.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/da51b9c3-71f3-4922-a32d-2c6066b0c382/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/da51b9c3-71f3-4922-a32d-2c6066b0c382/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/da51b9c3-71f3-4922-a32d-2c6066b0c382/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/da51b9c3-71f3-4922-a32d-2c6066b0c382/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e83e0f36-aade-446a-bd85-061642575347.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e83e0f36-aade-446a-bd85-061642575347/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e83e0f36-aade-446a-bd85-061642575347/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e83e0f36-aade-446a-bd85-061642575347/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e83e0f36-aade-446a-bd85-061642575347/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Mensaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Mensaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/MiembrosChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/MiembrosChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Notificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Notificacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/repositories/UsuariosRepository.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,34 +97,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.ChatUpApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/evaparacuellos/DEV/ChatUp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ChatUpApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/evaparacuellos/DEV/ChatUp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ChatUpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="chatUp" />
@@ -123,7 +152,8 @@
       <workItem from="1710061048908" duration="24000" />
       <workItem from="1710061108321" duration="1454000" />
       <workItem from="1710062575181" duration="198000" />
-      <workItem from="1710062781135" duration="7871000" />
+      <workItem from="1710062781135" duration="9831000" />
+      <workItem from="1710432373320" duration="3085000" />
     </task>
     <servers />
   </component>
