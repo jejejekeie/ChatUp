@@ -1,17 +1,17 @@
-package repositories;
+package Repositories;
 
-import models.Usuario;
+import Models.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
 
-    boolean existsByUsername(String nombre);
+    boolean existsByNombre(String nombre);
 
     boolean existsByEmail(String email);
 
-    Usuario findByUsername(String nombre);
+    Usuario findByNombre(String nombre);
 
     void updateUser(String nombre, String email, String hashContrasena, int id);
 

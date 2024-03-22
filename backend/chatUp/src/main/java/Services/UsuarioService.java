@@ -1,10 +1,10 @@
-package services;
+package Services;
 
-import models.Usuario;
+import Models.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import repositories.UsuarioRepository;
+import Repositories.UsuarioRepository;
 
 @Service
 public class UsuarioService {
@@ -19,7 +19,7 @@ public class UsuarioService {
     }
 
     public void registroUsuario(String nombre, String email, String contrasena) {
-        if (usuarioRepository.existsByUsername(nombre) || usuarioRepository.existsByEmail(email)) {
+        if (usuarioRepository.existsByNombre(nombre) || usuarioRepository.existsByEmail(email)) {
             throw new IllegalStateException("Username or email already exists.");
         }
         String hashedPassword = passwordEncoder.encode(contrasena);
@@ -31,7 +31,7 @@ public class UsuarioService {
     }
 
     public void loginUsuario(String nombre, String contrasena) {
-        Usuario user = usuarioRepository.findByUsername(nombre);
+        Usuario user = usuarioRepository.findByNombre(nombre);
         if (user == null) {
             throw new IllegalStateException("Usuario no encontrado.");
         }
@@ -41,7 +41,7 @@ public class UsuarioService {
     }
 
     public void getUsuario(String username) {
-        usuarioRepository.findByUsername(username);
+        usuarioRepository.findByNombre(username);
     }
 
     public void updateUser(String username, String email, String password, int id) {

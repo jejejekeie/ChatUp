@@ -1,4 +1,4 @@
-package configuration;
+package Configuration;
 
 import javax.sql.DataSource;
 import org.springframework.boot.autoconfigure.orm.jpa.JpaProperties;
