@@ -21,6 +21,4 @@ public class Usuario {
     private String estado;
     private Date ultimoAcceso;
     private Set<String> contactoIds;
-    private Set<String> chatIds;
-    private Set<String> chatGrupoIds;
 }

@@ -7,27 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e8b165a-8865-4cf4-a42d-2cdcb51a410c" name="Changes" comment="Creación de service y controller de Usuario">
-      <change afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/Controllers/MensajeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/Data/DbContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91a0e078-6c3a-421e-abac-275ac57ca457.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/91a0e078-6c3a-421e-abac-275ac57ca457.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chatUp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/configuration/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/Configuration/JpaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/configuration/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/Configuration/WebSocketConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/Controllers/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/Models/Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Mensaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/Models/Mensaje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/MiembrosChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/Models/ChatGrupo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Notificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/Models/Notificacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/Models/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/repositories/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/Repositories/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/Security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/services/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/Services/UsuarioService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="6e8b165a-8865-4cf4-a42d-2cdcb51a410c" name="Changes" comment="Modificacion de modelos para adaptarlos a mongo">
+      <change beforePath="$PROJECT_DIR$/backend/chatUp/src/main/java/Models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/chatUp/src/main/java/Models/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +125,7 @@
       <workItem from="1710062781135" duration="9831000" />
       <workItem from="1710432373320" duration="3672000" />
       <workItem from="1711057724547" duration="2053000" />
-      <workItem from="1711137883034" duration="2152000" />
+      <workItem from="1711137883034" duration="2228000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de service y controller de Usuario">
       <option name="closed" value="true" />
@@ -154,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710435632647</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modificacion de modelos para adaptarlos a mongo">
+      <option name="closed" value="true" />
+      <created>1711140064691</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711140064691</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +163,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Creación de service y controller de Usuario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación de service y controller de Usuario" />
+    <MESSAGE value="Modificacion de modelos para adaptarlos a mongo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificacion de modelos para adaptarlos a mongo" />
   </component>
 </project>
