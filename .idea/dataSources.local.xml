@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-233.15026.9">
-    <data-source name="ChatUp@localhost" uuid="91a0e078-6c3a-421e-abac-275ac57ca457">
-      <database-info product="MySQL" version="8.3.0" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MYSQL" exact-version="8.3.0" exact-driver-version="8.2">
-        <extra-name-characters>#@</extra-name-characters>
-        <identifier-quote-string>`</identifier-quote-string>
-      </database-info>
+    <data-source name="ChatUpDB@prueba1.ehcn9qz.mongodb.net" uuid="a6ec0866-bbd4-48cf-8fe6-c8d3455c766e">
+      <database-info product="Mongo DB" version="7.0.7" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.18" dbms="MONGO" exact-version="7.0.7" exact-driver-version="1.18" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <user-name>root</user-name>
+      <auth-provider>no-auth</auth-provider>
+      <user-name>eva</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" qname="ChatUp" />
+          <node kind="schema" qname="@" />
         </introspection-scope>
       </schema-mapping>
     </data-source>

@@ -1,11 +1,13 @@
 package Models;
 
-import jakarta.persistence.*;
-import lombok.*;
+import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.sql.Date;
-import java.sql.Timestamp;
+import java.util.Date;
 
 @Data
 @NoArgsConstructor
@@ -17,7 +19,6 @@ public class Mensaje {
     private String id;
     private String chatId;
     private String remitenteId;
-    private String tipoChat;
     private String contenido;
     private Date timestamp;
 }

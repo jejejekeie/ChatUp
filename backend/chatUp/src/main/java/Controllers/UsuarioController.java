@@ -10,7 +10,7 @@ public class UsuarioController {
 
     UsuarioService usuarioService;
 
-    @GetMapping("/registroUsuario")
+    @PostMapping("/registroUsuario")
     public void registroUsuario(String nombre, String email, String hashContrasena) {
         usuarioService.registroUsuario(nombre, email, hashContrasena);
     }
